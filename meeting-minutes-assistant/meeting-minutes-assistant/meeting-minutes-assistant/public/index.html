@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>会议纪要助手</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="landing-mode">
+    <section id="landingPage" class="landing-page">
+      <header class="site-header">
+        <a class="site-brand" href="#home" aria-label="会议纪要助手首页">
+          <span>纪</span>
+          <strong>会议纪要助手</strong>
+        </a>
+        <nav class="site-nav" aria-label="产品导航">
+          <a href="#features">功能</a>
+          <a href="#workflow">流程</a>
+          <a href="#privacy">设置</a>
+          <button id="openWorkspaceBtn" class="nav-action" type="button">进入工作台</button>
+        </nav>
+      </header>
+
+      <main id="home" class="landing-main">
+        <section class="hero-section">
+          <div class="hero-copy">
+            <span class="eyebrow">AI Meeting Minutes Workspace</span>
+            <h1>把会议内容自动整理成清晰纪要。</h1>
+            <p>录音、转写、总结和待办跟进集中在一个工作台里。少一点整理时间，多一点会议后的执行效率。</p>
+            <div class="hero-actions">
+              <button id="startWorkspaceBtn" class="primary" type="button" data-start-workspace>开始记录会议</button>
+              <button id="previewDemoBtn" class="secondary" type="button">查看示例纪要</button>
+            </div>
+            <div class="hero-proof">
+              <strong>实时转写</strong>
+              <strong>自动摘要</strong>
+              <strong>待办跟进</strong>
+            </div>
+          </div>
+
+          <div class="hero-product" aria-label="会议纪要助手界面预览">
+            <img src="/hero-workspace.png" alt="会议纪要助手工作台预览" />
+          </div>
+        </section>
+
+        <section class="logo-strip" aria-label="适用会议类型">
+          <span>适用于</span>
+          <strong>项目周会</strong>
+          <strong>运营复盘</strong>
+          <strong>客户访谈</strong>
+          <strong>课程汇报</strong>
+          <strong>远程同步</strong>
+        </section>
+
+        <section id="features" class="landing-band">
+          <div class="band-head">
+            <span class="eyebrow">核心功能</span>
+            <h2>从记录到跟进，保留最常用的工作流</h2>
+          </div>
+          <div class="feature-grid">
+            <article><strong>会议记录</strong><p>粘贴文本、实时录音或上传音视频，统一沉淀为可编辑的原始记录。</p></article>
+            <article><strong>自动纪要</strong><p>生成摘要、议题、决策、风险和待办，减少会后重复整理。</p></article>
+            <article><strong>追问与导出</strong><p>继续询问会议细节，把纪要复制、保存或导出为 Markdown。</p></article>
+          </div>
+        </section>
+
+        <section id="workflow" class="story-section">
+          <article class="story-copy">
+            <span class="step-number">01</span>
+            <h2>先把会议记录下来，不打断讨论。</h2>
+            <p>记录页只保留输入、录音、上传和最近会议。需要整理时再进入纪要页，避免所有功能同时挤在一个屏幕里。</p>
+            <dl>
+              <div><dt>输入方式</dt><dd>文本粘贴 / 浏览器录音 / 音视频上传</dd></div>
+              <div><dt>保留内容</dt><dd>原始转写、智能摘要、会议历史</dd></div>
+            </dl>
+          </article>
+          <figure class="story-visual">
+            <img src="/hero-workspace.png" alt="记录页预览" />
+          </figure>
+        </section>
+
+        <section class="story-section reverse">
+          <article class="story-copy">
+            <span class="step-number">02</span>
+            <h2>纪要、待办和追问分开处理。</h2>
+            <p>纪要页聚焦结构化结果，待办页专门管理负责人和状态，助手页用来继续追问会议细节。</p>
+            <dl>
+              <div><dt>结构化结果</dt><dd>摘要、议题、决策、风险、待办</dd></div>
+              <div><dt>后续动作</dt><dd>复制、保存、导出、删除历史记录</dd></div>
+            </dl>
+          </article>
+          <div class="mini-dashboard" aria-label="会议纪要功能概览">
+            <div><strong>3</strong><span>待办事项</span></div>
+            <div><strong>2</strong><span>关键决策</span></div>
+            <div><strong>1</strong><span>风险提示</span></div>
+            <p>每个页面只承载一个主要任务，减少工作台里的视觉噪音。</p>
+          </div>
+        </section>
+
+        <section id="privacy" class="landing-band security-band">
+          <div class="band-head">
+            <span class="eyebrow">设置与安全</span>
+            <h2>模型、语言和界面偏好集中管理</h2>
+          </div>
+          <div class="security-grid">
+            <article><strong>模型更换</strong><p>在设置页切换模型服务地址、纪要模型、转写模型和演示模式。</p></article>
+            <article><strong>语言切换</strong><p>界面语言可在中文和英文之间切换，导航、设置页和按钮会同步更新。</p></article>
+            <article><strong>历史管理</strong><p>保存后的纪要可以继续打开，也可以通过删除按钮移除。</p></article>
+          </div>
+        </section>
+
+        <section class="final-cta">
+          <h2>开始整理下一场会议</h2>
+          <p>打开工作台，录入会议内容，然后生成可编辑、可追问、可导出的纪要。</p>
+          <button class="primary" type="button" data-start-workspace>进入工作台</button>
+        </section>
+      </main>
+    </section>
+
+    <main class="meeting-app">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">纪</div>
+          <div>
+            <strong>会议纪要助手</strong>
+            <span>AI minutes workspace</span>
+          </div>
+        </div>
+
+        <div class="meeting-meta">
+          <button id="meetingTitle" class="title-button" type="button">产品周会 · 2025-05-20 10:00</button>
+          <span id="saveState" class="save-state">已就绪</span>
+        </div>
+
+        <nav class="app-nav" aria-label="工作台导航">
+          <button class="active" type="button" data-view="record">记录</button>
+          <button type="button" data-view="minutes">纪要</button>
+          <button type="button" data-view="tasks">待办</button>
+          <button type="button" data-view="history">历史</button>
+          <button type="button" data-view="assistant">助手</button>
+          <button type="button" data-view="settings">设置</button>
+        </nav>
+
+        <div class="top-actions">
+          <button id="newMeetingBtn" class="secondary" type="button">新建会议</button>
+          <button id="addTaskTopBtn" class="secondary" type="button">新增待办</button>
+          <button id="assistantToggleBtn" class="secondary" type="button">助手</button>
+          <button id="settingsShortcutBtn" class="secondary" type="button">设置</button>
+          <button id="shareBtn" class="secondary" type="button">分享</button>
+          <button id="exportBtn" class="secondary" type="button">导出</button>
+          <button id="saveMeetingBtn" class="secondary" type="button">保存会议</button>
+          <button id="generateBtn" class="primary" type="button">生成纪要</button>
+          <button id="moreActionsBtn" class="secondary" type="button">更多</button>
+        </div>
+      </header>
+
+      <section class="app-shell">
+        <nav class="rail" aria-label="主导航">
+          <button class="rail-item active" type="button" data-view="editor"><span>纪</span><strong>纪要编辑</strong></button>
+          <button class="rail-item" type="button" data-view="history"><span>录</span><strong>会议记录</strong></button>
+          <button class="rail-item" type="button" data-view="knowledge"><span>库</span><strong>知识库</strong></button>
+          <button class="rail-item" type="button" data-view="templates"><span>模</span><strong>模板</strong></button>
+          <button class="rail-item" type="button" data-view="settings"><span>设</span><strong>设置</strong></button>
+          <button id="collapseRailBtn" class="rail-collapse" type="button">收起</button>
+        </nav>
+
+        <aside class="source-panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">输入来源</span>
+              <h2>会议材料</h2>
+            </div>
+            <span id="sourceMode" class="status-chip">文本输入</span>
+          </div>
+
+          <div class="source-actions">
+            <label class="upload-button">
+              上传音频/视频
+              <input id="audioFile" type="file" accept="audio/*,video/*" />
+            </label>
+            <button id="loadSampleBtn" class="secondary" type="button">导入示例</button>
+            <button id="recordBtn" class="secondary" type="button">开始录音</button>
+            <button id="clearTranscriptBtn" class="ghost" type="button">清空</button>
+          </div>
+
+          <div class="record-card">
+            <div>
+              <strong id="recordState">待录入</strong>
+              <span>支持粘贴文本、浏览器语音识别、上传文件转写</span>
+            </div>
+            <button id="cancelRecordBtn" type="button">取消</button>
+            <div class="progress-line"><i></i></div>
+          </div>
+
+          <div class="source-tabs" role="tablist">
+            <button class="active" type="button" data-source-tab="transcript">原始转写</button>
+            <button type="button" data-source-tab="summary">智能摘要</button>
+          </div>
+
+          <div class="search-row">
+            <input id="searchInput" placeholder="搜索转写内容" />
+            <button id="searchBtn" type="button">定位</button>
+          </div>
+
+          <textarea id="transcriptInput" spellcheck="false" placeholder="在这里粘贴会议转写，或点击录音/上传开始采集会议内容..."></textarea>
+
+          <section class="history-dock">
+            <div class="section-title">
+              <span>最近会议</span>
+              <small id="meetingCount">0</small>
+            </div>
+            <div id="meetingList" class="meeting-list"></div>
+          </section>
+        </aside>
+
+        <section class="workspace-panel">
+          <div class="workspace-tabs">
+            <button class="active" type="button" data-doc-tab="minutes">结构化纪要</button>
+            <button type="button" data-doc-tab="raw">原始文本</button>
+            <button type="button" data-doc-tab="tasks">待办视图</button>
+          </div>
+
+          <div class="toolbar">
+            <button type="button" data-tool="bold">加粗</button>
+            <button type="button" data-tool="italic">斜体</button>
+            <button type="button" data-tool="timestamp">插入时间</button>
+            <button type="button" data-tool="action">新增待办</button>
+            <button type="button" data-tool="copy">复制纪要</button>
+            <button id="toolbarGenerateBtn" class="ai-button" type="button">AI 优化</button>
+          </div>
+
+          <article id="minutesDoc" class="minutes-doc"></article>
+
+          <footer class="doc-footer">
+            <span id="wordCount">字数 0</span>
+            <span id="lastUpdated">最后更新：待生成</span>
+          </footer>
+        </section>
+
+        <aside class="assistant-panel">
+          <div class="assistant-head">
+            <div>
+              <span class="eyebrow">AI Copilot</span>
+              <h2>会议助手</h2>
+            </div>
+            <span id="providerStatus" class="provider-pill">检查中</span>
+          </div>
+
+          <section class="assistant-dashboard">
+            <div><strong id="taskMetric">0</strong><span>待办</span></div>
+            <div><strong id="riskMetric">0</strong><span>风险</span></div>
+            <div><strong id="decisionMetric">0</strong><span>决策</span></div>
+          </section>
+
+          <div class="assistant-greeting">
+            我会基于当前会议原文回答问题、生成引用依据、改写纪要，也可以把结论转成周报、邮件或任务清单。
+          </div>
+
+          <section class="quick-actions">
+            <button type="button" data-command="本次会议的关键决策有哪些？">关键决策</button>
+            <button type="button" data-command="请整理所有待办事项，按负责人分组。">负责人待办</button>
+            <button type="button" data-command="这次会议有哪些风险和阻塞点？">风险排查</button>
+            <button type="button" data-command="把本次会议整理成一段可发送给团队的周报。">生成周报</button>
+          </section>
+
+          <div id="chatLog" class="chat-log"></div>
+
+          <form id="askForm" class="ask-form">
+            <input id="questionInput" placeholder="继续追问会议细节或输入指令..." />
+            <button class="send-button" type="submit">发送</button>
+          </form>
+
+          <section id="settingsPanel" class="settings-panel collapsed">
+            <div class="settings-head">
+              <div>
+                <strong>模型设置</strong>
+                <span>密钥仅保存在本地服务端</span>
+              </div>
+              <button id="toggleSettingsBtn" class="ghost" type="button">收起</button>
+            </div>
+            <div class="preset-row">
+              <button id="workingPresetBtn" class="preset-button" type="button">豆包方舟预设</button>
+              <button id="doubaoPresetBtn" class="preset-button secondary-preset" type="button">恢复当前模型</button>
+            </div>
+            <label>服务地址
+              <input id="chatEndpointInput" />
+            </label>
+            <label>模型名称
+              <input id="chatModelInput" />
+            </label>
+            <label>语音转文字
+              <input id="transcribeEndpointInput" />
+            </label>
+            <label>转写模型
+              <input id="transcribeModelInput" />
+            </label>
+            <label>访问密钥
+              <input id="apiKeyInput" type="password" placeholder="留空则保持已保存密钥" autocomplete="off" />
+            </label>
+            <label class="toggle-row"><input id="demoModeInput" type="checkbox" /> 开启演示模式</label>
+            <button id="saveSettingsBtn" class="secondary full" type="button">保存配置</button>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

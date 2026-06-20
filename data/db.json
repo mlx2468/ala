@@ -1,0 +1,17 @@
+{
+    "provider":  {
+                     "chatEndpoint":  "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+                     "transcribeEndpoint":  "",
+                     "chatModel":  "qwen-plus",
+                     "fallbackModels":  [
+
+                                        ],
+                     "transcribeModel":  "qwen3-asr-flash",
+                     "apiKey":  "",
+                     "demoMode":  false,
+                     "updatedAt":  "2026-06-19T17:22:08.357Z"
+                 },
+    "meetings":  [
+
+                 ]
+}
